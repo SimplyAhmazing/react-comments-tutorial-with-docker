@@ -18,4 +18,3 @@ WORKDIR /react-comments-tutorial
 # CMD ["/usr/bin/node", "server.js"]
 
 EXPOSE 3000
-
