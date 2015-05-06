@@ -4,6 +4,8 @@ FROM node:0.10-onbuild
 RUN npm install -g express \
 && npm install -g body-parser
 
+# TODO lookup volume
+
 RUN mkdir -p /react-comments-tutorial
 WORKDIR /react-comments-tutorial
 
